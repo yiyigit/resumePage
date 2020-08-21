@@ -8,7 +8,7 @@ import "./ResumeHeader.css";
 import Snackbar from "@material-ui/core/Snackbar";
 import Alert from "@material-ui/lab/Alert";
 import ReactGA from "react-ga";
-import Skills from "./parts/Skills";
+import Skills from "./resume-contents/parts/Skills";
 
 // React 16.8 React hook
 export default function ResumeHeader() {
