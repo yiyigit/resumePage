@@ -8,6 +8,7 @@ import "./ResumeHeader.css";
 import Snackbar from "@material-ui/core/Snackbar";
 import Alert from "@material-ui/lab/Alert";
 import ReactGA from "react-ga";
+import Skills from "./parts/Skills";
 
 // React 16.8 React hook
 export default function ResumeHeader() {
@@ -28,7 +29,7 @@ export default function ResumeHeader() {
         </Button>
       </div>
       <div>
-        <PhoneIcon />  {resumeContent.phone}
+        <PhoneIcon /> {resumeContent.phone}
       </div>
       <div>
         <Button
@@ -38,6 +39,9 @@ export default function ResumeHeader() {
         >
           {resumeContent.github}
         </Button>
+      </div>
+      <div>
+        <Skills />
       </div>
       <Snackbar
         open={openSnackBar}
