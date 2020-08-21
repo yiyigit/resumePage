@@ -20,7 +20,7 @@ export default function ResumeHeader() {
       <p>{resumeContent.selfIntro}</p>
       <div>
         <Button
-          color="primary"
+          color="default"
           startIcon={<EmailIcon />}
           onClick={handleEmailButtonClick}
         >
@@ -28,12 +28,11 @@ export default function ResumeHeader() {
         </Button>
       </div>
       <div>
-        <PhoneIcon />
-        {resumeContent.phone}
+        <PhoneIcon />' ' + {resumeContent.phone}
       </div>
       <div>
         <Button
-          color="primary"
+          color="default"
           startIcon={<GitHubIcon />}
           onClick={handleGithubClick}
         >

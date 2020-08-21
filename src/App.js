@@ -12,10 +12,10 @@ function App() {
   }, []);
   return (
     <Grid container justify="center">
-      <Grid container item xs={4}>
+      <Grid container item xs={3}>
         <ResumeHeader />
       </Grid>
-      <Grid container item xs={8}>
+      <Grid container item xs={9}>
         <ResumeContent />
       </Grid>
     </Grid>
