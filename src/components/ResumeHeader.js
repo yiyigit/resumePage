@@ -28,7 +28,7 @@ export default function ResumeHeader() {
         </Button>
       </div>
       <div>
-        <PhoneIcon />' ' + {resumeContent.phone}
+        <PhoneIcon />  {resumeContent.phone}
       </div>
       <div>
         <Button
